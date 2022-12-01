@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+</head>
+    <body>
+            <!--header-->
+            <section class="header">
+              <nav class="navbar">
+                <input type="checkbox" id="menu-btn"> <label for="menu-btn" class="menubtn"> <i class="fas fa-bars"></i></label> 
+                  <a href="" class="logo"><img src="images1/logo.png" alt="logo"> </a>
+                  <h1> MindCology</h1>
+                  <ul>
+                      <li><a href="home1.html" ><i class="fa-solid fa-house"></i>  Home</a></li>
+                      <li><a href="About.html" ><i class="fa-solid fa-address-card"></i>  About us</a></li>
+                      <li><a href="service.html"><i class="fa-solid fa-list"></i>  Services</a></li>
+                      <li><a href="benefit.html"><i class="fa-solid fa-hand-holding-hand"></i>  Benefits</a></li>
+                      <li><a href="contact.html" class="active"><i class="fa-solid fa-user-plus"></i>  Contact us</a></li>
+              </ul>
+          </nav>
+          </section>
+          <!--/header-->
+
+     <div class="title">
+      CONTACT US
+    </div>
+     <section class="wrapper reveal fade-bottom">
+      <div class="aside1 reveal fade-left">
+         <img src="images1/Capture.JPG">
+      </div>
+      <form id="form"> 
+         <div class="form-control">
+            <label>Full name</label>
+            <input type="text" placeholder="Username" id="username">
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+                  <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                  <small>Wrong. Set the correct inputs!</small>
+         </div>  
+          <div class="form-control">
+            <label>Email</label>
+            <input type="email" placeholder="Email" id="email">
+            <i class="fa fa-check-circle"></i>
+                  <i class="fa fa-exclamation-circle"></i>
+                  <small>Wrong. Set the correct inputs!</small>
+         </div> 
+        <div class="form-control">
+            <label>Message</label>
+            <textarea class="textarea" required></textarea>
+         </div> 
+            <button onclick="validateForm()">SUBMIT!</button>
+            <button onsubmit="clear()">Clear!</button>
+          </div>
+         </form>
+        </section>
+<!--footer-->
+<section class="footer">
+    <div class="footer-container">
+   <div class="row">
+    <div class="col">
+      <img src="images1/logo.png"><h1>MindCology</h1>
+      <p>Our team is a powerful mix of mental health professionals and tech enthusiasts, where one person is often both. Together we develop, design, and innovate to provide you with a digital safe space for your mind.</p>
+    </div>
+    <div class="col">
+      <h3>Office <div class="underline"><span></span></div></h3>
+      <p>Rr.Myslym Shyrri</p>
+      <p class="email">MindCology@gmail.com</p>
+      <h4>+355 692 765 2345</h4>
+    </div>
+    <div class="col">
+      <h3>Links <div class="underline"><span></span></div></h3>
+      <ul>
+        <li><a href="home1.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="benefit.html">Benefits</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <h3>Newsletter <div class="underline"><span></span></div></h3>
+      <form1>
+        <i class="fas fa-envelope"></i>
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+      </form1>
+      <div class="share">
+        <a1 href="#" class="fab fa-facebook-f"></a1>
+        <a2 href="#" class="fab fa-twitter"></a2>
+        <a3 href="#" class="fab fa-instagram"></a3>
+        <a4 href="#" class="fab fa-pinterest"></a4>
+     </div>
+    </div>
+   </div>
+   <hr>
+   <div class="credit"> Created by <span>MindCology</span> | All rights reserved! </div>
+  </div>
+  </section>
+  <!--/footer-->
+    <script src="js/contact.js"></script>
+</div>
+</body>
+</html>
+
